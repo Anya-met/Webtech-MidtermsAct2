@@ -387,7 +387,7 @@ input {
 }
 
 /*=============== BUTTONS ===============*/
-.button {
+button {
   display: inline-block;
   background-color: var(--first-color);
   color: var(--white-color);
@@ -396,17 +396,17 @@ input {
   transition: .3s;
 }
 
-.button:hover {
+button:hover {
   background-color: var(--first-color-alt);
 }
 
-.button--flex {
+button--flex {
   display: flex;
   align-items: center;
   column-gap: .25rem;
 }
 
-.button--link {
+button--link {
   background: none;
   padding: 0;
 }
